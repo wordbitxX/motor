@@ -173,7 +173,7 @@ export default function ServicesPage() {
           </div>
 
           <a
-            href="https://www.wordbitxtech.com/"
+            href="https://wordbitx.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl transition shadow-md shrink-0 flex items-center space-x-2"

@@ -25,7 +25,7 @@ export async function GET(_request: Request, context: { params: Promise<{ path: 
 
   const res = await fetch(upstream, {
     headers: {
-      'User-Agent': 'MOTORPakistan/1.0 (https://motor.wordbitxtech.com/; marketplace demo)',
+      'User-Agent': 'MOTORPakistan/1.0 (https://motor.wordbitx.pk/; marketplace demo)',
       Accept: 'image/jpeg,image/*,*/*;q=0.8',
     },
     next: { revalidate: 2592000 },

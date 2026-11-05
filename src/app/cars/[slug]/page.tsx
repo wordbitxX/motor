@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { getVehicleBySlug, getAllVehicles } from '@/lib/data';
 import CarDetailView from './CarDetailView';
+import { SITE_URL } from '@/lib/site';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
 
 export async function generateMetadata({
@@ -93,7 +94,7 @@ export default async function CarDetailPage({
       "seller": {
         "@type": "AutoDealer",
         "name": "MOTOR Lahore",
-        "url": "https://motor.wordbitxtech.com"
+        "url": SITE_URL
       }
     }
   };

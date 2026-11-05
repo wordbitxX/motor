@@ -7,7 +7,7 @@
  */
 
 const BASE = (process.argv[2] || process.env.AUDIT_URL || 'http://localhost:3000').replace(/\/$/, '');
-const PROD_DOMAIN = 'https://motor.wordbitxtech.com';
+const PROD_DOMAIN = 'https://motor.wordbitx.pk';
 
 let pass = 0;
 const failures = [];

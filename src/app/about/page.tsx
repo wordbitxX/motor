@@ -149,7 +149,7 @@ export default function AboutPage() {
           </div>
 
           <a
-            href="https://www.wordbitxtech.com/"
+            href="https://wordbitx.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-7 py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl transition shadow-xl flex items-center space-x-2 shrink-0"

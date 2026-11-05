@@ -13,7 +13,7 @@ export const WHATSAPP_NUMBER: string | null = null;
 export const PUBLIC_PHONE: string | null = null;
 
 /** Monitored enquiry inbox. */
-export const CONTACT_EMAIL = 'info@motor.wordbitxtech.com';
+export const CONTACT_EMAIL = 'info@wordbitx.com';
 
 /** Registered office / correspondence address. Null hides the address block. */
 export const OFFICE_ADDRESS: string | null = null;
