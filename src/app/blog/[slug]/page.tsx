@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BLOG_POSTS } from '@/lib/blog-data';
+import { SITE_URL } from '@/lib/site';
 import { getAllVehicles } from '@/lib/data';
 import VehicleCard from '@/components/VehicleCard';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
@@ -80,7 +81,7 @@ export default async function BlogPostPage({
       "logo": "https://images.pexels.com/photos/5288746/pexels-photo-5288746.jpeg"
     },
     "datePublished": "2026-03-01",
-    "mainEntityOfPage": `https://motor.wordbitxtech.com/blog/${post.slug}`
+    "mainEntityOfPage": `${SITE_URL}/blog/${post.slug}`
   };
 
   return (

@@ -12,7 +12,6 @@ import { organizationSchema, websiteSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  alternates: { canonical: '/' },
   title: {
     default: 'MOTOR | Pak | Cars, Bikes, Scooties, EVs 2026',
     template: '%s | MOTOR | Pak',

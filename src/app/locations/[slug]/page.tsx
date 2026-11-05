@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { LOCATIONS_DATA } from '@/lib/locations-data';
+import { SITE_URL } from '@/lib/site';
 import { getAllVehicles, getRentalVehicles } from '@/lib/data';
 import VehicleCard from '@/components/VehicleCard';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
@@ -101,7 +102,7 @@ export default async function LocationPage({
       "longitude": loc.coords.lng
     },
     "openingHours": loc.hours,
-    "url": `https://motor.wordbitxtech.com/locations/${loc.slug}`,
+    "url": `${SITE_URL}/locations/${loc.slug}`,
     "priceRange": "$$",
   };
 

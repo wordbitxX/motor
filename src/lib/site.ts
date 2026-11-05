@@ -3,13 +3,13 @@
  * Change SITE_URL here and every canonical URL, sitemap entry,
  * robots directive and JSON-LD @id updates automatically.
  */
-export const SITE_URL = 'https://motor.wordbitxtech.com';
+export const SITE_URL = 'https://motor.wordbitx.pk';
 
 export const SITE_NAME = 'MOTOR Pakistan';
 export const SITE_TAGLINE = 'Find Your Drive.';
 
-export const CONTACT_EMAIL = 'info@motor.wordbitxtech.com';
-export const PRIVACY_EMAIL = 'info@motor.wordbitxtech.com';
+export const CONTACT_EMAIL = 'info@wordbitx.com';
+export const PRIVACY_EMAIL = 'info@wordbitx.com';
 export const CONTACT_PHONE = '';
 export const CONTACT_PHONE_RAW = '+';
 

@@ -24,10 +24,10 @@ export default function PrivacyPage() {
         <p>Identification documents (such as Pakistani CNIC or Passport) requested for vehicle rentals and ownership title transfers are verified physically in compliance with provincial government excise requirements. Physical copies are kept in secure digital records accessible solely by certified compliance officers.</p>
 
         <h2 className="text-base font-bold text-slate-900 pt-4 border-t border-slate-100">4. Technology by WordbitX</h2>
-        <p>Our platform’s digital booking architecture, CRM pipeline, and web infrastructure are engineered and maintained in partnership with WordbitX (https://www.wordbitxtech.com/), adhering to industry-standard data encryption and secure transmission protocols.</p>
+        <p>Our platform’s digital booking architecture, CRM pipeline, and web infrastructure are engineered and maintained in partnership with WordbitX (https://wordbitx.com/), adhering to industry-standard data encryption and secure transmission protocols.</p>
 
         <h2 className="text-base font-bold text-slate-900 pt-4 border-t border-slate-100">5. Contact Our Privacy Officer</h2>
-        <p>For data inquiries or record updates, contact our compliance desk at 42-B Main Boulevard, Gulberg III, Lahore or email info@motor.wordbitxtech.com.</p>
+        <p>For data inquiries or record updates, contact our compliance desk at 42-B Main Boulevard, Gulberg III, Lahore or email info@wordbitx.com.</p>
       </div>
     </div>
   );

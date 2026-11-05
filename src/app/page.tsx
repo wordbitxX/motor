@@ -590,7 +590,7 @@ export default async function HomePage() {
             WordbitX builds complete digital solutions for modern businesses.
           </p>
           <a
-            href="https://www.wordbitxtech.com/"
+            href="https://wordbitx.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-7 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-[#0A1B33] font-bold text-sm shadow-lg shadow-emerald-500/20 transition-colors"

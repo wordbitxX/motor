@@ -156,7 +156,7 @@ export default function Footer() {
         {/* WordbitX branding — above city navigation */}
         <aside className="mt-10 pt-8 border-t border-slate-800/70">
           <a
-            href="https://www.wordbitxtech.com/"
+            href="https://wordbitx.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-2xl bg-slate-900 ring-1 ring-white/10 px-5 py-5 hover:ring-emerald-400/40 transition-colors"
@@ -169,7 +169,7 @@ export default function Footer() {
               </p>
             </div>
             <span className="inline-flex items-center gap-1.5 text-xs font-bold text-white shrink-0">
-              wordbitxtech.com
+              wordbitx.com
               <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
             </span>
           </a>
@@ -193,7 +193,7 @@ export default function Footer() {
           <p className="flex items-center gap-1.5">
             Technology by
             <a
-              href="https://www.wordbitxtech.com/"
+              href="https://wordbitx.com/"
               target="_blank" rel="noopener noreferrer"
               className="text-slate-300 hover:text-white font-semibold inline-flex items-center gap-1 transition-colors"
             >

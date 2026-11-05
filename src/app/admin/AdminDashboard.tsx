@@ -374,12 +374,12 @@ export default function AdminDashboard({
               Custom automotive architecture engineered by WordbitX.
             </p>
             <a
-              href="https://www.wordbitxtech.com/"
+              href="https://wordbitx.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-indigo-300 font-semibold flex items-center"
             >
-              <span>wordbitxtech.com</span>
+              <span>wordbitx.com</span>
               <ArrowRight className="w-3 h-3 ml-1" />
             </a>
           </div>
